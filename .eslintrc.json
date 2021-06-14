@@ -13,17 +13,16 @@
         "parser": "@typescript-eslint/parser",
         "ecmaVersion": 2020,
         "sourceType": "module",
-        /*"project": [
+        "project": [
           "tsconfig.app.json"
-        ],*/
+        ],
         "createDefaultProgram": true
       },
       "env": {
         "browser": true,
         "commonjs": true,
         "es6": true
-      }
-      /*,
+      },
       "extends": [
         "plugin:@angular-eslint/recommended",
         "plugin:@angular-eslint/template/process-inline-templates"
@@ -45,7 +44,7 @@
             "type": "attribute"
           }
         ]
-      }*/
+      }
     },
     {
       "files": [
